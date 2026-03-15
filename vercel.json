@@ -1,4 +1,8 @@
 {
+  "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -10,7 +14,7 @@
         { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://dharshan-portfolio-backend.onrender.com; object-src 'none'; base-uri 'self'; form-action 'self';"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://dharshan-portfolio-backend.onrender.com https://www.google-analytics.com https://stats.g.doubleclick.net; object-src 'none'; base-uri 'self'; form-action 'self';"
         }
       ]
     }
