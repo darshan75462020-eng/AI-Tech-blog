@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description: 'A professional technical journal exploring Artificial Intelligence, Machine Learning, and software architecture.',
   // 2. ADD GOOGLE VERIFICATION HERE
   verification: {
-    google: '<meta name="google-site-verification" content="GJnl3xJJ0kjPO2BO-5eixz4dUKynDYERdxQxfdqOOyA" />', 
+    google: 'GJnl3xJJ0kjPO2BO-5eixz4dUKynDYERdxQxfdqOOyA', 
   },
   openGraph: {
     title: 'AI Journal - Artificial Intelligence Insights',
